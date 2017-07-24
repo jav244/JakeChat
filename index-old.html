@@ -1,0 +1,56 @@
+<!doctype html>
+<html> 
+<head>
+	<title>Jake Chat</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="JakeScript.js"></script>
+	<link rel="stylesheet" type="text/css" href ="stylesheet.css" />
+	<link rel="stylesheet" href ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+
+<body class = "container">
+	
+	<a href="build.php">reset database m8</a><br>
+	<button id="testBtn" class="btn btn-default">test</button>
+	<div id="chat">
+		<h3>Jake Chat</h3>
+			<div id="data" >
+				LOADING...
+			</div>
+
+			<div id="messageBox">
+				<input type="text" id="input" onkeypress="checkForEnter(event, this)" placeholder="Type a message..." />
+				<button id="submitMsg" >Submit</button><br>
+			</div>
+
+			<div id = "loginRegister">
+				<button id="loginButton" class="btn btn-default">Login</button> 
+				<button id="registerButton" class="btn btn-default">Register</button>
+			</div>
+
+			<div id="loginForm">
+			   	Enter user name: <input id ='loginUsrName' type ='text' />
+			    <br><br> 
+			    Enter password: <input id ='loginPassword' type ='password' />
+			    <br><br>
+			    <button id="loginBtn" class="btn btn-default">Login</button>
+			</div>
+
+			<div id="registerForm">
+				Enter a user name: <input id ='registerUsrName' type ='text'/>
+		    	<br><br> 
+				Enter a password: <input id ='registerPassword' type ='password'/>
+		    	<br><br>
+				Enter a email: <input type="email" id="registerEmail"/>
+				<button id="registerBtn" class="btn btn-default">Register</button>
+			</div>
+
+		
+		<br>
+		<button id="logoutBtn" class="btn btn-default">logout</button>
+	</div>
+</body>
+
+
+</html>
+

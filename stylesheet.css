@@ -1,0 +1,230 @@
+#data{
+	background: #fff2e6;
+	width: 15em;
+	overflow-y: auto;
+	/*overflow-x: hidden;*/
+	height: 25em;
+	margin: 0 auto;
+	border: 2px solid #fff2e6;
+	border-radius: 5px;
+}
+
+#chat{
+	background: #ffb366;
+	padding: 1em;
+	width: 20em;
+	border: 2px solid ;
+	border-radius: 10px;
+}
+
+#input{
+	height:2em;
+}
+
+#loginRegister{
+	margin: 1em auto;
+	text-align: center;
+}
+
+#loginForm{
+
+}
+
+#date{
+	background: #80bfff;
+	padding-left: 6px;
+	padding-top: 3px;
+	border-top: 2px solid;
+	border-right: 2px solid;
+	border-left: 2px solid;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-left: 1em;
+    width: 7em;
+}
+
+.time{
+	background: #ffd699;
+	max-width: 15em;
+
+	text-align: center;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	border-top: 2px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.msg{
+	background: #f4c542;
+	max-width: 15em;
+	padding-left: 2px;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.time:hover, .msg:hover, #date:hover, #loginName:hover{
+	cursor: default;
+}
+
+.time button{
+	float: right;
+	margin-right: 5px;
+	margin-top:2px;
+}
+
+.deleteBtn:hover{
+	cursor: pointer;
+}
+
+#loginButton{
+	width: 7em;
+}
+
+#registerButton{
+	width: 7em;
+}
+
+#messageBox{
+	margin: 1em auto;
+}
+
+#submitMsg{
+	margin-left: 10px;
+	max-width: 4.3em;
+}
+
+#loginName{
+	background: #b3ffb3;
+	border: 2px solid #b3ffb3;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+}
+
+.btn{
+	margin-left: 2px;
+}
+/*#data::-webkit-scrollbar { width: 0 !important }*/
+
+
+
+
+body {
+  color: black;
+}
+
+header {
+  text-align: center;
+  border-style : solid;
+}
+
+footer {
+  text-align: center;
+  border-style : solid;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 80em;
+  display: block;
+  display: flex;
+}
+
+.main{
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main label{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.login-btn input{
+	margin-top: 1em;
+}
+
+.left-side {
+  border-style : solid;
+  width: 15em;
+  display: flex;
+  align-items: center;
+  flex: 1;
+    background-color: #cce6ff;
+}
+
+.game{
+  width: 40em;
+  flex: 3;
+}
+
+img {
+  width: 100%;
+}
+
+.chat-box {
+  border-style : solid;
+  width: 15em;
+  flex: 1;
+  background-color: #cce6ff;
+}
+
+.message-box{
+  display: flex;
+
+}
+
+.input-chat{
+	display: flex;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-box {
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: white;
+      border-style : solid;
+}
+
+.text-box ul{
+  list-style-type: none;
+}
+
+.login {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.signup {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.signup input{
+  margin-top: 1em;
+}
+
+.login-btn{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
